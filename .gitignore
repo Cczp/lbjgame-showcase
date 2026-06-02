@@ -1,0 +1,26 @@
+# 防止误传私有源码和构建产物
+/src/
+/source/
+/assets/source/
+/build/
+/dist/
+/library/
+/temp/
+/local/
+/logs/
+
+# 防止误传配置、密钥和本地环境文件
+.env
+.env.*
+*.keystore
+*.jks
+*.pem
+*.key
+*.p12
+*.log
+
+# 系统与编辑器文件
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
